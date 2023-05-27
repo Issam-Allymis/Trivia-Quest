@@ -16,6 +16,10 @@ body {
   max-width: 500px;
   margin: 100px auto 0;
   border-radius: 0.75rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .app h1 {
@@ -33,6 +37,8 @@ body {
   color: #002e4a;
   font-weight: 800;
   font-size: 28px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .btn {
@@ -49,9 +55,13 @@ body {
   transition: all 0.5s;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
   background: #444;
   color: #ffff;
+}
+
+.btn:disabled {
+  cursor: auto;
 }
 
 #next-btn {
@@ -64,4 +74,25 @@ body {
   padding: 10px;
   border-radius: 0.75rem;
   cursor: pointer;
+  display: none;
+}
+
+#start-btn {
+  background: #009b40;
+  color: #ffff;
+  width: 150px;
+  font-weight: 600;
+  border: 0;
+  margin: 20px auto 0;
+  padding: 10px;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+.correct {
+  background: #00FF00;
+}
+
+.incorrect {
+  background: #FF0000;
 }
