@@ -6,8 +6,28 @@ The [Trivia Quest]() is a quiz that consists of ten sets of questions designed t
 ### Visitor Goals
 
 **The target audience for Trivia Quest**
-- Individuals who want to gain geographical and general knowledge
-- Indiviuals who want to have fun and still learn
+- Individuals who want to gain geographical and general knowledge.
+- Indiviuals who want to have fun and still learn.
 
+**User goals are**
+- Increase in knowledge while playing.
+- Play a fun quiz game while simultaneously learning.
 
-Happy coding!
+**The Trivia Quiz objectives**
+- Expanding knowledge while participating in the quiz.
+- Interactive and enjoyable experience where individuals can have fun while answering questions and competing with others.
+
+### Business Goals
+- Drive User Engagement by creating an engaging trivia quiz.
+
+**User stories**
+- As a user, I want to be able to play a fun and engaging quiz with a variety of interesting questions so that I can test my knowledge and have an enjoyable experience.
+- As a user, I want the quiz to be easy to understand and navigate so that I can quickly start playing and have an increase in knowledge after the quiz is over.
+- As a user interested in playing a quiz, I expect to see how many answers i got correct.
+
+## Visual Design 
+I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) website. I selected the Kurale font from the Google Fonts website because I found it to be a perfect fit for the style and tone of my project.
+
+## The Colours 
+
+Happy coding
