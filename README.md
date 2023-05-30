@@ -30,4 +30,27 @@ I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) we
 
 ## The Colours 
 
+# Technologies Used
+## Languages
+- HTML
+- CSS
+- JavaScript
+
+## Libraries
+- [Google Fonts](https://fonts.google.com/specimen/Kurale)
+
+## Platforms 
+- [GitHub](https://github.com/)
+- [Gitpod](https://gitpod.io/login/)
+
+# Other Tools
+## Testing 
+### Desktop 
+
+### Mobile 
+
+## General Testing
+- During the development process, I regularly tested my code using the inspect tool. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
+
+## Methods
 Happy coding
