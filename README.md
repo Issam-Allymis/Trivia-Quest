@@ -53,4 +53,16 @@ I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) we
 - During the development process, I regularly tested my code using the inspect tool. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
 
 ## Methods
+
+# Deployment 
+## GitHub
+ **This this site was deployed using GitHub Pages following these steps listed below**:
+ 1. Log into GitHub and [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories). This is where the project is located.
+ 2. Find the project's navbar and select the 'Settings' tab.
+ 3. In the settings page on the left hand side of the page, find "pages" under "Code and  automation" 
+ 4. At the Branch it is labelled as "none", click the dropdown menu and select "main" after hit save.
+ 5. The page will then automatically refresh.
+ 6. A link to the deployed site will appear after receiving a pop-up notification at the top of the page.
+
+# Credit 
 Happy coding
