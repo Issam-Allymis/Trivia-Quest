@@ -29,6 +29,24 @@ The [Trivia Quest]() is a quiz that consists of ten sets of questions designed t
 I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) website. I selected the Kurale font from the Google Fonts website because I found it to be a perfect fit for the style and tone of my project.
 
 ## The Colours 
+Blue is often associated with qualities like trust, reliability, and professionalism. It can also evoke feelings of calmness and serenity. White, on the other hand, is often associated with purity, simplicity, and cleanliness. By choosing blue and white, I aimed to create a sense of trustworthiness, professionalism, and a clean aesthetic for my website.
+
+# Features
+## Page Elements
+### The Header 
+![Screenshot 2023-05-31 013321](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/0ab89a52-4e61-48f1-8da2-f82091e56068)
+
+I created a simple heading design that is consistent throughout the quiz.
+
+### The Game Section
+![Screenshot 2023-05-31 013517](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/714690a3-aa13-45cd-b5bb-2fe3b475d97e)
+
+The game is simple, there is a question followed by three answers, one of which is correct. If the question is answered correctly, it is shown in green, if answered incorrectly, it is shown in red. Above the question and answers is where the quit button will be located if the user wishes to discontinue playing.
+
+### The Final Scores Section
+![Screenshot 2023-05-27 151333](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/800c3d9a-e869-4085-9db2-bd768e329e74)
+
+Once the user has answered all the questions, the final score is revealed as well as a restart button if the user wishes to play again.
 
 # Technologies Used
 ## Languages
@@ -65,4 +83,6 @@ I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) we
  6. A link to the deployed site will appear after receiving a pop-up notification at the top of the page.
 
 # Credit 
+- I took [Wed Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) ideas to come up with the questions and answers array.
+
 Happy coding
