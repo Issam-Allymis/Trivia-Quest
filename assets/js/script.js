@@ -85,6 +85,7 @@ const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 
+
 let currentQuestionIndex = 0;
 let score = 0;  
 
@@ -111,6 +112,7 @@ function startGame() {
   };
   answerButtons.style.display = 'block';
 }
+
 
 function quitGame() {
   // Reset the game state and hide the quit button
@@ -146,8 +148,8 @@ function resetState() {
   }
 }
 
-function selectAnswer(event) {
-  const selectedBtn = event.target;
+function selectAnswer(e) {
+  const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
   if(isCorrect) {
     selectedBtn.classList.add("correct");
@@ -179,7 +181,9 @@ function showScore() {
 function handleNextButton() {
   currentQuestionIndex++;
   if(currentQuestionIndex < questions.length) {
+    remainingTime = timeLimit;
     showQuestion();
+    updateTimer();
   } else {
     showScore();
   }
