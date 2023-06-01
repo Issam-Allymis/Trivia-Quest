@@ -32,6 +32,14 @@ I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) we
 Blue is often associated with qualities like trust, reliability, and professionalism. It can also evoke feelings of calmness and serenity. White, on the other hand, is often associated with purity, simplicity, and cleanliness. By choosing blue and white, I aimed to create a sense of trustworthiness, professionalism, and a clean aesthetic for my website.
 
 # Features
+## Wireframes 
+![Screenshot 2023-06-01 164559](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/6afa9f62-cd7a-4ab2-a3d9-f4d060b087f1)
+
+![Screenshot 2023-06-01 164612](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/1e1e5c4d-009e-499e-baf7-ce2f15d86f2f)
+
+![Screenshot 2023-06-01 164628](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/69ac638c-f9d9-4a64-b125-5cb2e5234f6c)
+
+
 ## Page Elements
 ### The Header 
 ![Screenshot 2023-05-31 013321](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/0ab89a52-4e61-48f1-8da2-f82091e56068)
@@ -63,14 +71,25 @@ Once the user has answered all the questions, the final score is revealed as wel
 
 # Other Tools
 ## Testing 
+I have tested the [Trivia Quest]() on both desktop and mobile screens using the ***Lighthouse*** tool, and it is designed to be responsive, adapting to different screen sizes. Here are the test results below:
 ### Desktop 
+![Screenshot 2023-06-01 172840](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/28644b4d-1330-4393-90c1-b91c1d2da620)
 
 ### Mobile 
+![Screenshot 2023-06-01 172904](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/b8227c0d-92d1-4799-9f64-6a0fe6551527)
 
 ## General Testing
 - During the development process, I regularly tested my code using the inspect tool. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
 
 ## Methods
+1. HTML has been validated through [W3C HTML5 Validator](https://validator.w3.org/)
+2. CSS has been validated through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/
+3. JavaScript has been validated through [JShint](https://jshint.com/).
+4. Ive used [Stack Overflow](https://stackoverflow.com/) [W3Schools](https://www.w3schools.com/) I have included references and tutorials throughout my project to assist me whenever I encountered difficulties or needed a refresher on how to write specific sections of code.
+
+#Bugs
+- I faced challenges when implementing the timeout function in my code to transition to the next question. Despite my efforts, I couldn't get the game to start properly, and I struggled to identify the root cause of this issue.
+- I encountered another issue where, upon selecting the quit button in the game, only the first question would appear below the start button. I struggled to resolve this bug and couldn't determine the underlying cause of the issue.
 
 # Deployment 
 ## GitHub
