@@ -79,7 +79,7 @@ I have tested the [Trivia Quest]() on both desktop and mobile screens using the 
 ![Screenshot 2023-06-01 172904](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/b8227c0d-92d1-4799-9f64-6a0fe6551527)
 
 ## General Testing
-- During the development process, I regularly tested my code using the inspect tool. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
+- During the development process, I regularly tested my code using the developer tools. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
 
 ## Methods
 1. HTML has been validated through [W3C HTML5 Validator](https://validator.w3.org/)
@@ -100,6 +100,19 @@ I have tested the [Trivia Quest]() on both desktop and mobile screens using the 
  4. At the Branch it is labelled as "none", click the dropdown menu and select "main" after hit save.
  5. The page will then automatically refresh.
  6. A link to the deployed site will appear after receiving a pop-up notification at the top of the page.
+
+
+## **Clone Repository Steps**
+1. Log into Your GitHub account and locate to [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories).
+2. In the repository page, find and click **code**.
+3. There are several ways of doing this next step:
+   - Clone the repository using HTTPs, under "Clone with HTTPS", then click the 'copy' icon.
+   - Clone a repository using GitHub CLI, click 'Use GitHub CLI', then ckick the 'copy' icon.
+   - Clone the repository using SSH key, click 'Use SSH', then click the 'copy' icon. 
+4. Open GitBash in the terminal.
+5. Navigate to the directory where you want to clone a repository, you can use the "cd" command followed by the directory path. This will change the current working directory to the desired location.
+6. Type "git clone" command followed by the URL you copied.
+7. Press Enter.
 
 # Credit 
 - I took [Wed Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) ideas to come up with the questions and answers array.
