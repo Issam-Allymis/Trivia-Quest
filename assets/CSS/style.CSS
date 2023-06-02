@@ -64,6 +64,13 @@ body {
   cursor: auto;
 }
 
+#score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00FF00;
+}
+
 #next-btn {
   background: #002e4a;
   color: #ffff;
@@ -83,6 +90,9 @@ body {
   width: 150px;
   font-weight: 600;
   border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px auto 0;
   padding: 10px;
   border-radius: 0.75rem;

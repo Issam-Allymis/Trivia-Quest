@@ -8,7 +8,7 @@ const questions = [
     ],
   },
   {
-    question: "What is the tallest building in the world?",
+    question: "Where is the tallest building in the world?",
     answers: [
       {text: "USA", correct: false}, 
       {text: "Italy", correct: false}, 
@@ -85,6 +85,8 @@ const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer-buttons');
 const nextButton = document.getElementById('next-btn');
 
+let scoreContainer = document.getElementById('score-container');
+scoreContainer.innerHTML = `<h2>Score: <span id="score">0</span></h2>`;
 
 let currentQuestionIndex = 0;
 let score = 0;  
@@ -154,6 +156,8 @@ function selectAnswer(e) {
   if(isCorrect) {
     selectedBtn.classList.add("correct");
     score++;
+    // Update the score
+    document.getElementById('score').innerHTML = score;
   } else {
     selectedBtn.classList.add("incorrect");
   }
@@ -181,15 +185,13 @@ function showScore() {
 function handleNextButton() {
   currentQuestionIndex++;
   if(currentQuestionIndex < questions.length) {
-    remainingTime = timeLimit;
     showQuestion();
-    updateTimer();
   } else {
     showScore();
   }
 }
 
-nextButton.addEventListener('click', function() {
+nextButton.addEventListener('click', function(){
   if(currentQuestionIndex < questions.length) {
     handleNextButton();
   } else {
