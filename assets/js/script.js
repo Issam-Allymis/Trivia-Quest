@@ -107,6 +107,7 @@ function startGame() {
   scoreContainer.style.display = 'flex';
   currentQuestionIndex = 0;
   score = 0;
+  scoreContainer.innerHTML = `<h2>Score: <span id="score">0</span></h2>`;
   nextButton.innerHTML = 'Next';
   showQuestion();
   const quizElements = document.getElementsByClassName('quiz')
