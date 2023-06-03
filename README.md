@@ -123,10 +123,16 @@ I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) 
 6. Type "git clone" command followed by the URL you copied.
 7. Press Enter.
 
+Happy coding! 💪
+
 # Credit 
 - I took [Wed Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) ideas to come up with the questions and answers array.
--
--
-# Acknowledgement
 
-Happy coding
+# Acknowledgement
+I would like to give a huge thanks to [Julia Konovalova](https://github.com/IuliiaKonovalova) for putting in the effort and guiding me through the course of this project.
+I would like to thank the [CI](https://learn.codeinstitute.net/login?next=/dashboard) course for the invaluable Knowledge passed onto me through the modules on the course.
+I would like to thank my family and friends for creating the questions during the making of my project.
+
+# Disclaimer
+***The Trivia Quest Project Was Created Only For Educational Purposes.***
+
