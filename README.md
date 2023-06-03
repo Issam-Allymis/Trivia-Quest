@@ -1,4 +1,4 @@
-The [Trivia Quest]() is a quiz that consists of ten sets of questions designed to test your general knowledge. Each set of questions covers various topics, including geography, authors and lots more. The quiz is interactive and user-friendly, allowing a user select an answer for each question. Once the user answers a question, the user can proceed to the next one. At the end of the quiz, the total score will be calculated based on the number of correct answers the user has provided. The questions are carefully crafted to be challenging yet informative, offering an opportunity to learn and expand your knowledge while enjoying the quiz. The topics covered in the questions are diverse, ensuring a well-rounded quiz experience. Whether you are playing for fun, to test your knowledge, or to compete with friends, the Trivia Quest provides an engaging and educational platform to enhance your general knowledge and have an enjoyable time.
+The [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) is a quiz that consists of ten sets of questions designed to test your general knowledge. Each set of questions covers various topics, including geography, authors and lots more. The quiz is interactive and user-friendly, allowing a user select an answer for each question. Once the user answers a question, the user can proceed to the next one. At the end of the quiz, the total score will be calculated based on the number of correct answers the user has provided. The questions are carefully crafted to be challenging yet informative, offering an opportunity to learn and expand your knowledge while enjoying the quiz. The topics covered in the questions are diverse, ensuring a well-rounded quiz experience. Whether you are playing for fun, to test your knowledge, or to compete with friends, the Trivia Quest provides an engaging and educational platform to enhance your general knowledge and have an enjoyable time.
 
 
 # UX
@@ -65,13 +65,13 @@ Once the user has answered all the questions, the final score is revealed as wel
 - [Google Fonts](https://fonts.google.com/specimen/Kurale)
 
 ## Platforms 
-- [GitHub](https://github.com/)
-- [Gitpod](https://gitpod.io/login/)
-- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/) Used for storing code remotely & deployment.
+- [Gitpod](https://gitpod.io/login/) IDE for project development.
+- [Git](https://git-scm.com/) Used for version control.
 
 # Other Tools
 ## Testing 
-I have tested the [Trivia Quest]() on both desktop and mobile screens using the ***Lighthouse*** tool, and it is designed to be responsive, adapting to different screen sizes. Here are the test results below:
+I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) on both desktop and mobile screens using the ***Lighthouse*** tool, and it is designed to be responsive, adapting to different screen sizes. Here are the test results below:
 ### Desktop 
 ![Screenshot 2023-06-01 172840](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/28644b4d-1330-4393-90c1-b91c1d2da620)
 
@@ -83,8 +83,15 @@ I have tested the [Trivia Quest]() on both desktop and mobile screens using the 
 
 ## Methods
 1. HTML has been validated through [W3C HTML5 Validator](https://validator.w3.org/)
+ ![Screenshot 2023-06-01 172232](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/2a71e715-23f3-49a2-ad36-34135f547941)
+
 2. CSS has been validated through [W3C CSS Validator](https://jigsaw.w3.org/css-validator/
+ ![Screenshot 2023-06-01 172315](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/2eda03ab-f7b5-4691-b967-3e3386dc6589)
+
 3. JavaScript has been validated through [JShint](https://jshint.com/).
+
+ ![Screenshot 2023-06-03 185920](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/3702fd64-32a3-49f1-9214-a2ee41a6f9ad)
+
 4. Ive used [Stack Overflow](https://stackoverflow.com/) [W3Schools](https://www.w3schools.com/) I have included references and tutorials throughout my project to assist me whenever I encountered difficulties or needed a refresher on how to write specific sections of code.
 
 #Bugs
@@ -118,7 +125,8 @@ I have tested the [Trivia Quest]() on both desktop and mobile screens using the 
 
 # Credit 
 - I took [Wed Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) ideas to come up with the questions and answers array.
-
+-
+-
 # Acknowledgement
 
 Happy coding
