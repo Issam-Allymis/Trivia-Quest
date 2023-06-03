@@ -132,3 +132,13 @@ body {
 .incorrect {
   background: #FF0000;
 }
+
+
+@media screen and (max-width: 768px) {
+.app h1 {
+  font-size: 30px;
+  color: #002e4a;
+  border-bottom: 1px solid #444;
+  font-weight: 800;
+ }
+}
