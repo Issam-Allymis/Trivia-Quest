@@ -31,7 +31,6 @@ I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) we
 ## The Colours 
 Blue is often associated with qualities like trust, reliability, and professionalism. It can also evoke feelings of calmness and serenity. White, on the other hand, is often associated with purity, simplicity, and cleanliness. By choosing blue and white, I aimed to create a sense of trustworthiness, professionalism, and a clean aesthetic for my website.
 
-# Features
 ## Wireframes 
 ![Screenshot 2023-06-01 164559](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/6afa9f62-cd7a-4ab2-a3d9-f4d060b087f1)
 
@@ -39,7 +38,7 @@ Blue is often associated with qualities like trust, reliability, and professiona
 
 ![Screenshot 2023-06-01 164628](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/69ac638c-f9d9-4a64-b125-5cb2e5234f6c)
 
-
+# Features
 ## Page Elements
 ### The Header 
 ![Screenshot 2023-05-31 013321](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/0ab89a52-4e61-48f1-8da2-f82091e56068)
@@ -58,9 +57,9 @@ Once the user has answered all the questions, the final score is revealed as wel
 
 # Technologies Used
 ## Languages
-- HTML
-- CSS
-- JavaScript
+- HTML: Used for page markup.
+- CSS: Used for page styling.
+- JavaScript: Used for running functions for an interactive page.
 
 ## Libraries
 - [Google Fonts](https://fonts.google.com/specimen/Kurale)
@@ -68,6 +67,7 @@ Once the user has answered all the questions, the final score is revealed as wel
 ## Platforms 
 - [GitHub](https://github.com/)
 - [Gitpod](https://gitpod.io/login/)
+- [Git](https://git-scm.com/)
 
 # Other Tools
 ## Testing 
