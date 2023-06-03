@@ -99,7 +99,7 @@ startButton.addEventListener('click', function() {
   startGame();
 });
 
-
+// Function to start the game
 function startGame() {
   // Show the quit button
   quitButton.style.display = 'block';
@@ -116,7 +116,7 @@ function startGame() {
   answerButtons.style.display = 'block';
 }
 
-
+// Function to quit the game
 function quitGame() {
   // Reset the game state and hide the quit button
   resetState();
@@ -126,6 +126,7 @@ function quitGame() {
   scoreContainer.style.display = 'none';
 }
 
+// Function to display the current question
 function showQuestion() {
   resetState();
 
@@ -145,6 +146,7 @@ function showQuestion() {
   });
 }
 
+// Function to reset the state of the game
 function resetState() {
   nextButton.style.display = "none";
   while(answerButtons.firstChild){
@@ -152,6 +154,7 @@ function resetState() {
   }
 }
 
+// Function to handle the selection of an answer
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
@@ -172,6 +175,7 @@ function selectAnswer(e) {
   nextButton.style.display = "block";
 }
 
+// Function to show the final score
 function showScore() {
   resetState();
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
@@ -180,10 +184,11 @@ function showScore() {
 }
 
 /**
+ * Function to handle the click of the next button
  * Increments the currentQuestionIndex variable by 1. 
- * It moves the index to the next question in the questions array
- * showScore: This function is responsible for displaying the final score or summary of the quiz to the user
+ * Moves to the next question or displays the final score.
  */
+// Function to handle the next button click
 function handleNextButton() {
   currentQuestionIndex++;
   if(currentQuestionIndex < questions.length) {
@@ -193,6 +198,7 @@ function handleNextButton() {
   }
 }
 
+// Event listener for the next button
 nextButton.addEventListener('click', function(){
   if(currentQuestionIndex < questions.length) {
     handleNextButton();
