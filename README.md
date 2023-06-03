@@ -96,8 +96,23 @@ I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) 
 
 #Bugs
 - I encountered another issue where, upon selecting the quit button in the game, only the first question would appear below the start button. I struggled to resolve this bug and couldn't determine the underlying cause of the issue.
+  - I resolved this issue by using the document.getElementsByClassName()[] while specifically targeting the second class. I then used the style.backgroundcolor properties to change the background exclusive to the second class to blue. This works well because the text itself is blue so it conveniently blends into the body of the page.
+![Screenshot 2023-06-03 202321](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/0c873204-fa7d-4f08-a8ab-121fdbee5409) Added to the quitGame function.
+![Screenshot 2023-06-03 202336](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/ed0b439d-d598-448d-a62a-d127c2f2d9d3) Added to the startGame function.
+
+- This particular issue is that the background of the questions is visible and it looks very out of place.
+
+- ![Screenshot 2023-06-03 233139](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/bf77899a-d32a-48a2-a1e5-3097c5a72ae4)
+
+  - I **resolved** this issue using CSS 
+  
+  - ![Screenshot 2023-06-03 233411](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/07537fd6-e63a-4967-9237-39032790fc66)
+   
+- Desired outcome
+- ![Screenshot 2023-06-04 001749](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/ab720303-3b02-492d-98da-607f64aef4d8)
 
 ## Future fuatures
+
 - Implementing the timeout function in my code to transition to the next question. Despite my efforts, I couldn't get the game to start properly, and I struggled to identify the root cause of this issue.
 
 # Deployment 
