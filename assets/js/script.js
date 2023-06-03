@@ -106,7 +106,7 @@ function startGame() {
   startButton.style.display = "none";
   currentQuestionIndex = 0;
   score = 0;
-  nextButton.innerHTML = 'Next'
+  nextButton.innerHTML = 'Next';
   showQuestion();
   const quizElements = document.getElementsByClassName('quiz')
   if (quizElements.length > 0) {
@@ -165,16 +165,16 @@ function selectAnswer(e) {
     if(button.dataset.correct === "true") {
       button.classList.add("correct");
     }
-    button.disabled = "true"
+    button.disabled = "true";
   });
-  nextButton.style.display = "block"
+  nextButton.style.display = "block";
 }
 
 function showScore() {
   resetState();
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
   nextButton.innerHTML = "Restart";
-  nextButton.style.display = "block"
+  nextButton.style.display = "block";
 }
 
 /**
@@ -197,7 +197,7 @@ nextButton.addEventListener('click', function(){
   } else {
     startGame();
   }
-})
+});
 
 
 
