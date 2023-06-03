@@ -69,6 +69,8 @@ body {
   justify-content: center;
   align-items: center;
   color: #00FF00;
+  border: 0;
+  margin: 20px auto 0;
 }
 
 #next-btn {

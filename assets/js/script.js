@@ -104,6 +104,7 @@ function startGame() {
   // Show the quit button
   quitButton.style.display = 'block';
   startButton.style.display = "none";
+  scoreContainer.style.display = 'flex';
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = 'Next';
@@ -122,6 +123,7 @@ function quitGame() {
   quitButton.style.display = 'none';
   startButton.style.display = 'block';
   answerButtons.style.display = 'none';
+  scoreContainer.style.display = 'none';
 }
 
 function showQuestion() {
