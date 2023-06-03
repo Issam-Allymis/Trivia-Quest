@@ -88,8 +88,10 @@ I have tested the [Trivia Quest]() on both desktop and mobile screens using the 
 4. Ive used [Stack Overflow](https://stackoverflow.com/) [W3Schools](https://www.w3schools.com/) I have included references and tutorials throughout my project to assist me whenever I encountered difficulties or needed a refresher on how to write specific sections of code.
 
 #Bugs
-- I faced challenges when implementing the timeout function in my code to transition to the next question. Despite my efforts, I couldn't get the game to start properly, and I struggled to identify the root cause of this issue.
 - I encountered another issue where, upon selecting the quit button in the game, only the first question would appear below the start button. I struggled to resolve this bug and couldn't determine the underlying cause of the issue.
+
+## Future fuatures
+- Implementing the timeout function in my code to transition to the next question. Despite my efforts, I couldn't get the game to start properly, and I struggled to identify the root cause of this issue.
 
 # Deployment 
 ## GitHub
@@ -116,5 +118,7 @@ I have tested the [Trivia Quest]() on both desktop and mobile screens using the 
 
 # Credit 
 - I took [Wed Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) ideas to come up with the questions and answers array.
+
+# Acknowledgement
 
 Happy coding
