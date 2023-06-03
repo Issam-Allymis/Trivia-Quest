@@ -109,6 +109,7 @@ function startGame() {
   score = 0;
   scoreContainer.innerHTML = `<h2>Score: <span id="score">0</span></h2>`;
   nextButton.innerHTML = 'Next';
+  document.getElementsByClassName('app')[1].style.backgroundColor = '#FFF';
   showQuestion();
   const quizElements = document.getElementsByClassName('quiz')
   if (quizElements.length > 0) {
@@ -125,6 +126,7 @@ function quitGame() {
   startButton.style.display = 'block';
   answerButtons.style.display = 'none';
   scoreContainer.style.display = 'none';
+  document.getElementsByClassName('app')[1].style.backgroundColor = '#002e4a';
 }
 
 // Function to display the current question
