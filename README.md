@@ -32,7 +32,10 @@ I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) we
 ## The Colours 🎨
 Blue is often associated with qualities like trust, reliability, and professionalism. It can also evoke feelings of calmness and serenity. White, on the other hand, is often associated with purity, simplicity, and cleanliness. By choosing blue and white, I aimed to create a sense of trustworthiness, professionalism, and a clean aesthetic for my website.
 
-## Wireframes 
+![blue-white-fade-scaled](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/e93127c3-b699-4306-a6b3-c64d53a18318)
+
+
+## Wireframes :atom:
 ![Screenshot 2023-06-01 164559](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/6afa9f62-cd7a-4ab2-a3d9-f4d060b087f1)
 
 ![Screenshot 2023-06-01 164612](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/1e1e5c4d-009e-499e-baf7-ce2f15d86f2f)
