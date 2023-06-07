@@ -134,6 +134,11 @@ body {
 }
 
 a {
+  color: black;
+  font-size: 18px;
+}
+
+a:hover {
   color: blue;
   font-size: 18px;
 }
