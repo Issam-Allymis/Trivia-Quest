@@ -1,3 +1,4 @@
+ /*jshint esversion: 8, jquery: true, scripturl: true */
 const questions = [
   {
     question: "What is the capital city of Spain?",
@@ -111,10 +112,10 @@ function startGame() {
   nextButton.innerHTML = 'Next';
   document.getElementsByClassName('app')[1].style.backgroundColor = '#FFF';
   showQuestion();
-  const quizElements = document.getElementsByClassName('quiz')
+  const quizElements = document.getElementsByClassName('quiz');
   if (quizElements.length > 0) {
     quizElements[0].style.display = 'block';
-  };
+  }
   answerButtons.style.display = 'block';
 }
 
@@ -145,7 +146,7 @@ function showQuestion() {
     if(answer.correct) {
       button.dataset.correct = answer.correct;
     }
-    button.addEventListener("click", selectAnswer)
+    button.addEventListener("click", selectAnswer);
   });
 }
 
