@@ -92,6 +92,8 @@ I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) 
 ## General Testing 🧪
 - During the development process, I regularly tested my code using the developer tools. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
 
+- **Responsiveness:** [screencapture-issam-allymis-github-io-Trivia-Quest-2023-06-07-19_46_40.pdf](https://github.com/Issam-Allymis/Trivia-Quest/files/11678863/screencapture-issam-allymis-github-io-Trivia-Quest-2023-06-07-19_46_40.pdf)
+
 ## Methods 
 1. HTML has been validated through [W3C HTML5 Validator](https://validator.w3.org/)
  ![Screenshot 2023-06-01 172232](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/2a71e715-23f3-49a2-ad36-34135f547941)
@@ -101,7 +103,7 @@ I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) 
 
 3. JavaScript has been validated through [JShint](https://jshint.com/).
 
- ![Screenshot 2023-06-03 185920](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/3702fd64-32a3-49f1-9214-a2ee41a6f9ad)
+![Screenshot 2023-06-07 150643](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/d911b279-2a0f-49d9-b597-e2d200171aed)
 
 4. Ive used [Stack Overflow](https://stackoverflow.com/) [W3Schools](https://www.w3schools.com/) I have included references and tutorials throughout my project to assist me whenever I encountered difficulties or needed a refresher on how to write specific sections of code.
 
