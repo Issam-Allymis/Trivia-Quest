@@ -2,9 +2,13 @@
 
 The [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) is a quiz that consists of ten sets of questions designed to test your general knowledge. Each set of questions covers various topics, including geography, authors and lots more. The quiz is interactive and user-friendly, allowing a user select an answer for each question. Once the user answers a question, the user can proceed to the next one. At the end of the quiz, the total score will be calculated based on the number of correct answers the user has provided. The questions are carefully crafted to be challenging yet informative, offering an opportunity to learn and expand your knowledge while enjoying the quiz. The topics covered in the questions are diverse, ensuring a well-rounded quiz experience. Whether you are playing for fun, to test your knowledge, or to compete with friends, the Trivia Quest provides an engaging and educational platform to enhance your general knowledge and have an enjoyable time.
 
-# UX
-## Goals 🥅
-### Visitor Goals
+🕸️ [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/)
+
+📂 [Repository](https://github.com/Issam-Allymis/Trivia-Quest)
+
+## UX
+### Goals 🥅
+#### Visitor Goals
 
 **The target audience for Trivia Quest**
 - Individuals who want to gain geographical and general knowledge.
@@ -18,7 +22,7 @@ The [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) is a quiz that
 - Expanding knowledge while participating in the quiz.
 - Interactive and enjoyable experience where individuals can have fun while answering questions and competing with others.
 
-### Business Goals
+#### Business Goals
 - Drive User Engagement by creating an engaging trivia quiz.
 
 **User stories**
@@ -26,25 +30,25 @@ The [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) is a quiz that
 - As a user, I want the quiz to be easy to understand and navigate so that I can quickly start playing and have an increase in knowledge after the quiz is over.
 - As a user interested in playing a quiz, I expect to see how many answers i got correct.
 
-## Visual Design 💻
+### Visual Design 💻
 I chose my font from [Google Fonts](https://fonts.google.com/specimen/Kurale) website. I selected the Kurale font from the Google Fonts website because I found it to be a perfect fit for the style and tone of my project.
 
-## The Colours 🎨
+### The Colours 🎨
 Blue is often associated with qualities like trust, reliability, and professionalism. It can also evoke feelings of calmness and serenity. White, on the other hand, is often associated with purity, simplicity, and cleanliness. By choosing blue and white, I aimed to create a sense of trustworthiness, professionalism, and a clean aesthetic for my website.
 
 ![blue-white-fade-scaled](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/e93127c3-b699-4306-a6b3-c64d53a18318)
 
 
-## Wireframes :atom:
+### Wireframes :atom:
 ![Screenshot 2023-06-01 164559](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/6afa9f62-cd7a-4ab2-a3d9-f4d060b087f1)
 
 ![Screenshot 2023-06-01 164612](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/1e1e5c4d-009e-499e-baf7-ce2f15d86f2f)
 
 ![Screenshot 2023-06-01 164628](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/69ac638c-f9d9-4a64-b125-5cb2e5234f6c)
 
-# Features 
-## Page Elements
-### The Header 
+## Features 
+### Page Elements
+#### The Header 
 ![Screenshot 2023-05-31 013321](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/0ab89a52-4e61-48f1-8da2-f82091e56068)
 
 I created a simple heading design that is consistent throughout the quiz.
@@ -59,28 +63,31 @@ The game is simple, there is a question followed by three answers, one of which 
 
 Once the user has answered all the questions, the final score is revealed as well as a restart button if the user wishes to play again.
 
-# Technologies Used 👨‍💻
-## Languages
-- HTML: Used for page markup.
-- CSS: Used for page styling.
-- JavaScript: Used for running functions for an interactive page.
+## Technologies Used 👨‍💻
+### Languages
+- [HTML](https://en.wikipedia.org/wiki/HTML): Used for page markup.
+- [CSS](https://en.wikipedia.org/wiki/CSS): Used for page styling.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript): Used for running functions for an interactive page.
 
-## Libraries 📚
+### Libraries 📚
 - [Google Fonts](https://fonts.google.com/specimen/Kurale)
 
-## Platforms 
+### Platforms 
 - [GitHub](https://github.com/) Used for storing code remotely & deployment.
 - [Gitpod](https://gitpod.io/login/) IDE for project development.
 - [Git](https://git-scm.com/) Used for version control.
 
-# Other Tools 🧰
-## Testing 
+## Lighthouse Testing 
 I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) on both desktop and mobile screens using the ***Lighthouse*** tool, and it is designed to be responsive, adapting to different screen sizes. Here are the test results below:
 ### Desktop 🖥️
 ![Screenshot 2023-06-04 012113](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/78d4dbb4-38af-41c3-8b8e-9ac19e65f906)
 
 ### Mobile 
 ![Screenshot 2023-06-04 012132](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/761360aa-8c83-4a44-9ba1-7b70e7b2b6ce)
+
+## Manual Testing
+- ***Start Button***: I checked if the start button is working correctly. Once the *start button* is clicked, the first question and answers are displayed below the heading. ***Test*** is successful.
+- ***Quit Button***: I checked if the quit button is working correctly. Once the *quit button* is clicked, the page goes back to the way it was before the start button was clicked. ***Test*** is successful.
 
 ## General Testing 🧪
 - During the development process, I regularly tested my code using the developer tools. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
@@ -118,6 +125,8 @@ I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) 
 ## Future fuatures
 
 - Implementing the timeout function in my code to transition to the next question. Despite my efforts, I couldn't get the game to start properly, and I struggled to identify the root cause of this issue.
+- I will implement Fivcon tag.
+- I will implement jest testing for future development.
 
 # Deployment 
 ## GitHub
@@ -146,6 +155,9 @@ Happy coding! 💪
 
 # Credit 
 - I took [Wed Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k) ideas to come up with the questions and answers array.
+- [GitHub](https://github.com/) Used for storing code remotely & deployment.
+- [Gitpod](https://gitpod.io/login/) IDE for project development.
+- [Git](https://git-scm.com/) Used for version control.
 
 # Acknowledgement 
 - I would like to give a huge thanks to [Julia Konovalova](https://github.com/IuliiaKonovalova) for putting in the effort and guiding me through the course of this project.
