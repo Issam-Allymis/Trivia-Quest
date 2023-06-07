@@ -100,7 +100,12 @@ startButton.addEventListener('click', function() {
   startGame();
 });
 
-// Function to start the game
+/**
+ * Function to start the game
+ * - Shows the quit button
+ * - Resets the game state
+ * - Displays the first question
+ */
 function startGame() {
   // Show the quit button
   quitButton.style.display = 'block';
@@ -119,7 +124,12 @@ function startGame() {
   answerButtons.style.display = 'block';
 }
 
-// Function to quit the game
+/**
+ * Function to quit the game
+ * - Resets the game state
+ * - Hides the quit button
+ * - Shows the start button
+ */
 function quitGame() {
   // Reset the game state and hide the quit button
   resetState();
@@ -130,7 +140,12 @@ function quitGame() {
   document.getElementsByClassName('app')[1].style.backgroundColor = '#002e4a';
 }
 
-// Function to display the current question
+/**
+ * Function to display the current question
+ * - Resets the state
+ * - Retrieves the current question
+ * - Displays the question and answer buttons
+ */
 function showQuestion() {
   resetState();
 
@@ -150,7 +165,11 @@ function showQuestion() {
   });
 }
 
-// Function to reset the state of the game
+/**
+ * Function to reset the state of the game
+ * - Hides the next button
+ * - Clears the answer buttons
+ */
 function resetState() {
   nextButton.style.display = "none";
   while(answerButtons.firstChild){
@@ -158,14 +177,19 @@ function resetState() {
   }
 }
 
-// Function to handle the selection of an answer
+/**
+ * Function to handle the selection of an answer
+ * - Determines if the selected answer is correct
+ * - Updates the score if the answer is correct
+ * - Disables all answer buttons
+ * - Shows the next button
+ */
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
   if(isCorrect) {
     selectedBtn.classList.add("correct");
     score++;
-    // Update the score
     document.getElementById('score').innerHTML = score;
   } else {
     selectedBtn.classList.add("incorrect");
@@ -179,7 +203,13 @@ function selectAnswer(e) {
   nextButton.style.display = "block";
 }
 
-// Function to show the final score
+/**
+ * Function to show the final score
+ * - Resets the state
+ * - Displays the final score
+ * - Changes the text of the next button to "Restart"
+ * - Shows the next button
+ */
 function showScore() {
   resetState();
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
