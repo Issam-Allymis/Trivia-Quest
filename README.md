@@ -91,11 +91,11 @@ I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) 
 ## Manual Testing
 |**Feature**|**Action**|**Expected result**|**Tested**|**Passed**|
 | --- | --- | --- | --- | --- |
-|**Start Button**|Click on the 'start' button|The game commences|Yes|Yes|
-|**Quit Button**|Click on the 'quit' button|The game discards|Yes|Yes|
-|***Correct* Answer**|Click Answer button|Button turns green|Yes|Yes|
-|***Incorrect* Answer**|Click Answer button|Button turn red|Yes|Yes|
-|**Anchor Link**|Click on the link|Sends user to Github account|Yes|Yes|
+|**Start Button**|Click on the 'start' button|The game should commence|Yes|Yes|
+|**Quit Button**|Click on the 'quit' button|The game should discards|Yes|Yes|
+|***Correct* Answer**|Click Answer button|The button should turn green|Yes|Yes|
+|***Incorrect* Answer**|Click Answer button|The button should turn red|Yes|Yes|
+|**Anchor Link**|Click on the link|Should send user to Github account|Yes|Yes|
 
 ## General Testing 🧪
 - During the development process, I regularly tested my code using the developer tools. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
