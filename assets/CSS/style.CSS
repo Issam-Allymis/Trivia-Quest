@@ -1,3 +1,4 @@
+/* Reset styles for margin, padding, font-family, and box-sizing */
 * {
   margin: 0;
   padding: 0;
@@ -5,22 +6,29 @@
   box-sizing: border-box;
 }
 
+/* Body styles */
 body {
   background: #002e4a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Content container styles */
 .app {
   padding: 30px;
   width: 80%;
   max-width: 500px;
-  margin: 100px auto 0;
+  margin: 4em auto;
   border-radius: 0.75rem; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
 }
 
+/* Content container psuedo class style for the last child */
 .app:last-child {
   background: #ffff;
   padding: 30px;
@@ -34,6 +42,7 @@ body {
   justify-content: center;
 }
 
+/* Heading styles */
 .app h1 {
   font-size: 38px;
   color: #002e4a;
@@ -41,6 +50,7 @@ body {
   font-weight: 800;
 }
 
+/* Quiz styles */
 .quiz {
   padding: 10px 0;
 }
@@ -53,6 +63,7 @@ body {
   max-width: 500px;
 }
 
+/* Button styles */
 .btn {
   background: #ffff;
   color: #222;
@@ -76,6 +87,7 @@ body {
   cursor: auto;
 }
 
+/* Score container styles for correct answers */
 #score-container {
   display: flex;
   justify-content: center;
@@ -85,6 +97,7 @@ body {
   margin: 20px auto 0;
 }
 
+/* Next button styles */
 #next-btn {
   background: #002e4a;
   color: #ffff;
@@ -98,6 +111,7 @@ body {
   display: none;
 }
 
+/* Start button styles */
 #start-btn {
   background: #009b40;
   color: #ffff;
@@ -113,6 +127,7 @@ body {
   cursor: pointer;
 }
 
+/* Quit button styles */
 #quit-btn {
   background: #000000;
   color: #ffff;
@@ -125,14 +140,17 @@ body {
   cursor: pointer;
 }
 
+/* Correct answer styles */
 .correct {
   background: #00FF00;
 }
 
+/* Icorrect answer styles */
 .incorrect {
   background: #FF0000;
 }
 
+/* Link styles */
 a {
   color: black;
   font-size: 18px;
@@ -143,6 +161,7 @@ a:hover {
   font-size: 18px;
 }
 
+/* Footer styles to centralise the content */
 footer {
   font-size: 18px;
   display: flex;
@@ -150,6 +169,7 @@ footer {
   align-items: center;
 }
 
+/* Responsive styles for screens up to 768px */
 @media screen and (max-width: 768px) {
   .app h1 {
     font-size: 30px;

@@ -7,28 +7,38 @@
     <meta name="author" content="Issam Ally">
     <meta name="keywords" content="Trivia, Quest, Trivia Quest, Quiz, Quiz game, Game, Web game">
     <meta name="description" content="A quiz game website to test your knowledge while also enjoying yourself">
+    <!-- Links to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+    <!-- Link to connect CSS stylesheet -->
     <link rel="stylesheet" href="assets/CSS/style.CSS">
     <title>Trivia Quest</title>
 </head>
 <body>
+  <!-- The Header -->
   <header>
     <div class="app">
+      <!-- The Main heading -->
       <h1>Trivia Quest</h1>
     </div>
   </header>
+  <!-- The Main content -->
   <main class="app">
+    <!-- The score container (hidden initially) -->
     <div id="score-container" style="display: none;">
     </div>
+      <!-- The quit button (hidden initially) -->
       <button id="quit-btn" style="display: none;">Quit</button>
+      <!-- The start button -->
       <button id="start-btn">Start</button>
     <div>
       <div id="timer"></div>
       <div class="quiz" style="display: none;">
+        <!-- The quiz section (hidden initially) -->
         <h2 id="question">Question goes here</h2>
         <div id="answer-buttons">
+          <!-- Answer buttons -->
           <button class="btn">Answer 1</button>
           <button class="btn">Answer 2</button>
           <button class="btn">Answer 3</button>
@@ -37,9 +47,11 @@
       </div>
     </div>
   </main>
+  <!-- The Footer -->
   <footer>
     Created By <a href="https://github.com/Issam-Allymis/Trivia-Quest" rel="noopener" target="_blank" aria-label="Visit my git hub account">Issam</a>
   </footer>
+  <!-- JavaScript script link -->
   <script src="assets/js/script.js"></script>
 </body>
 </html>
