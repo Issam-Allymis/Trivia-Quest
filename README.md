@@ -46,6 +46,9 @@ Blue is often associated with qualities like trust, reliability, and professiona
 
 ![Screenshot 2023-06-01 164628](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/69ac638c-f9d9-4a64-b125-5cb2e5234f6c)
 
+### Workflow Schema 
+![image](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/cccbb5e9-84b4-485d-af73-cb063c581421)
+
 ## Features 
 ### Page Elements
 #### The Header 
@@ -86,8 +89,13 @@ I have tested the [Trivia Quest](https://issam-allymis.github.io/Trivia-Quest/) 
 ![Screenshot 2023-06-04 012132](https://github.com/Issam-Allymis/Trivia-Quest/assets/126810074/761360aa-8c83-4a44-9ba1-7b70e7b2b6ce)
 
 ## Manual Testing
-- ***Start Button***: I checked if the start button is working correctly. Once the *start button* is clicked, the first question and answers are displayed below the heading. ***Test*** is successful.
-- ***Quit Button***: I checked if the quit button is working correctly. Once the *quit button* is clicked, the page goes back to the way it was before the start button was clicked. ***Test*** is successful.
+|**Feature**|**Action**|**Expected result**|**Tested**|**Passed**|
+| --- | --- | --- | --- | --- |
+|**Start Button**|Click on the 'start' button|The game commences|Yes|Yes|
+|**Quit Button**|Click on the 'quit' button|The game discards|Yes|Yes|
+|***Correct* Answer**|Click Answer button|Button turns green|Yes|Yes|
+|***Incorrect* Answer**|Click Answer button|Button turn red|Yes|Yes|
+|**Anchor Link**|Click on the link|Sends user to Github account|Yes|Yes|
 
 ## General Testing 🧪
 - During the development process, I regularly tested my code using the developer tools. This allowed me to assess the impact of the code on various elements and promptly identify any errors that occurred in the console.
